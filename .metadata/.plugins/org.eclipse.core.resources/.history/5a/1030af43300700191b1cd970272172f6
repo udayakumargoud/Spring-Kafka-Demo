@@ -1,0 +1,13 @@
+package interviewQuestions;
+
+public class RemoveNumbersFromString {
+
+	public static void main(String[] args) {
+		
+		String str = "121224323Remove Numbers from the string";
+		System.out.println("The new String:" + str.replaceAll("[^0-9]", ""));
+		
+
+	}
+
+}
